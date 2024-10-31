@@ -1,0 +1,48 @@
+.header {
+  background-color: rgb(6, 183, 124);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header button {
+  height: 30px;
+  border-radius: 0.25rem;
+  border-color: rgb(106, 59, 2);
+  border-width: 0.1rem;
+  background: rgb(19, 136, 48);
+  margin: 30px;
+}
+.header button:hover {
+  background: rgb(16, 102, 38);
+}
+
+.div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.div2 .orme {
+  height: 50px;
+  background-color: rgb(99, 235, 235);
+  border-color: rgb(3, 166, 166);
+  border-width: 3px;
+  margin: 5px;
+}
+.div2 .orme:hover {
+  background-color: #d9b7b0;
+  border-color: #d98471;
+}
+.div2 .orme2 {
+  height: 200px;
+  background-color: rgb(3, 166, 166);
+  border-color: rgb(99, 235, 235);
+  border-width: 3px;
+  margin: 5px;
+}
+.div2 .orme2:hover {
+  background-color: #d9b7b0;
+  border-color: #d98471;
+}/*# sourceMappingURL=styles.css.map */

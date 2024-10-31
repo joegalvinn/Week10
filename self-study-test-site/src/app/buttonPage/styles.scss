@@ -1,0 +1,17 @@
+@import "../styleVariables/_variables.scss";
+@import "./header";
+
+.div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  .orme {
+    @include button(50px, $primaryBlue, $secondaryBlue);
+  }
+
+  .orme2 {
+    @include button(200px, $secondaryBlue, $primaryBlue);
+  }
+}

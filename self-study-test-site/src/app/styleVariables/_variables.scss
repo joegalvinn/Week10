@@ -1,0 +1,20 @@
+$primaryBtn: rgb(19, 136, 48);
+$hoverbtn: rgb(16, 102, 38);
+
+$primaryBlue: rgb(99, 235, 235);
+$secondaryBlue: rgb(3 166 166);
+$mutedBlue: #618c8c;
+$primaryRed: #d98471;
+$secondaryRed: #d9b7b0;
+
+@mixin button($height, $background, $border) {
+  height: $height;
+  background-color: $background;
+  border-color: $border;
+  border-width: 3px;
+  margin: 5px;
+  &:hover {
+    background-color: $secondaryRed;
+    border-color: $primaryRed;
+  }
+}

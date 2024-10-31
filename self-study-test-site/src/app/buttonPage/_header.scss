@@ -1,0 +1,18 @@
+.header {
+  background-color: rgb(6, 183, 124);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    height: 30px;
+    border-radius: 0.25rem;
+    border-color: rgb(106, 59, 2);
+    border-width: 0.1rem;
+    background: $primaryBtn;
+    margin: 30px;
+    &:hover {
+      background: $hoverbtn;
+    }
+  }
+}
