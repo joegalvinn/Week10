@@ -1,20 +1,37 @@
-$primaryBtn: rgb(19, 136, 48);
-$hoverbtn: rgb(16, 102, 38);
+$primaryBtn: #a64138;
+$hoverbtn: #f26b5e;
+$borderColour: #f2a950;
+$backgroundColour: #152340;
 
 $primaryBlue: rgb(99, 235, 235);
 $secondaryBlue: rgb(3 166 166);
 $mutedBlue: #618c8c;
 $primaryRed: #d98471;
 $secondaryRed: #d9b7b0;
+$primaryGreen: #038c4c;
+$secodaryGreen: #02733e;
 
-@mixin button($height, $background, $border) {
+@mixin fullPageDiv($background) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+  background-color: $background;
+}
+
+@mixin button($height, $width, $background, $border) {
   height: $height;
+  width: $width;
   background-color: $background;
   border-color: $border;
   border-width: 3px;
   margin: 5px;
+  // transition: all 1s ease-in-out;
   &:hover {
     background-color: $secondaryRed;
     border-color: $primaryRed;
+    // transform: rotate(360deg);
+    // letter-spacing: 10px;
   }
 }

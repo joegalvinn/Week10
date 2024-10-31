@@ -1,0 +1,19 @@
+.header {
+  background-color: #152340;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.header button {
+  height: 30px;
+  border-radius: 0.25rem;
+  border-color: #f2a950;
+  border-width: 0.15rem;
+  background: #a64138;
+  margin: 30px;
+}
+.header button:hover {
+  background: #f26b5e;
+}/*# sourceMappingURL=styles.css.map */

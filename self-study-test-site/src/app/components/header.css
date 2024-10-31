@@ -1,0 +1,7 @@
+.navBar {
+  position: absolute;
+  right: 2vw;
+  font-size: clamp(14px, 2vw, 30px);
+  color: white;
+  background-color: none;
+}

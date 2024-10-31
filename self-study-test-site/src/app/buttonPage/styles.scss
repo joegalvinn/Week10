@@ -1,17 +1,21 @@
 @import "../styleVariables/_variables.scss";
-@import "./header";
 
-.div2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  .orme {
-    @include button(50px, $primaryBlue, $secondaryBlue);
+.div1 {
+  @include fullPageDiv(#3a36ab);
+
+  .button1 {
+    @include button(250px, 50px, $primaryBlue, $secondaryBlue);
   }
 
-  .orme2 {
-    @include button(200px, $secondaryBlue, $primaryBlue);
+  .button2 {
+    @include button(200px, 200px, $secondaryBlue, $primaryBlue);
+  }
+}
+
+.div2 {
+  @include fullPageDiv(#f2afa0);
+
+  .button3 {
+    @include button(350px, 300px, $primaryGreen, $secodaryGreen);
   }
 }

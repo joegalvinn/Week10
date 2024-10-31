@@ -1,16 +1,21 @@
+@import "../styleVariables/_variables.scss";
+
 .header {
-  background-color: rgb(6, 183, 124);
+  background-color: $backgroundColour;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+
   button {
     height: 30px;
     border-radius: 0.25rem;
-    border-color: rgb(106, 59, 2);
-    border-width: 0.1rem;
+    border-color: $borderColour;
+    border-width: 0.15rem;
     background: $primaryBtn;
     margin: 30px;
+
     &:hover {
       background: $hoverbtn;
     }
